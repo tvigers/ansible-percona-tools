@@ -1,7 +1,7 @@
 Percona Tools
 =========
 
-[![Travis](https://travis-ci.org/tvigers/ansible-percona-tools.svg?branch=develop)](https://travis-ci.org/tvigers/ansible-percona-tools)
+[![Travis](https://travis-ci.org/tvigers/ansible-percona-tools.svg?branch=master)](https://travis-ci.org/tvigers/ansible-percona-tools)
 
 Simple role to managed the installation of Percona Toolkit and Percona xtrabackup.
 
