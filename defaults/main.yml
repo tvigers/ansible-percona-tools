@@ -1,0 +1,6 @@
+---
+# defaults file for ansible-percona-tools
+
+percona_toolkit_packages:
+  - percona-toolkit
+  - percona-xtrabackup-24

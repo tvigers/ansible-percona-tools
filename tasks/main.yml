@@ -1,0 +1,12 @@
+---
+# tasks file for ansible-percona-tools
+
+- name: Add percona yum repository
+  yum:
+    name: "{{ percona_yum_repository }}"
+    state: present
+
+- name: Install percona toolkit packages
+  yum:
+    name: "{{ percona_toolkit_packages }}"
+    state: present
